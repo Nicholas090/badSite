@@ -1,0 +1,1609 @@
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('fonts/ofont.ru_gotham_pro-webfont.woff2') format('woff2'),
+         url('fonts/ofont.ru_gotham_pro-webfont.woff') format('woff');
+    font-weight: normal;
+    
+
+}
+@font-face {
+    font-family: 'proxima';
+    src: url('fonts/11098-webfont.woff2') format('woff2'),
+         url('fonts/11098-webfont.woff') format('woff');
+    font-weight: normal;
+    
+
+}
+@font-face {
+    font-family: 'Gotham Pro Black';
+    src: url('fonts/14074-webfont.woff2') format('woff2'),
+         url('fonts/14074-webfont.woff') format('woff');
+    font-weight: normal;    
+}
+@media screen  and (max-width: 1200px) {
+    .wraper007{width: 120%}
+    .fon11,.navigation,.under,footer{width: 1200px;}
+   .wrap{margin-left: 16px;}
+}
+
+s
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+	
+
+
+.lang1{
+	position:relative;	
+	display:inline-block;
+	padding-bottom:25px;
+}
+.lang2{
+	position: relative;
+	display:inline-block;	
+	padding-left: 34px;
+}
+.lang3{
+	float: right;
+	display:inline-block;	
+	margin-top: 10px;	
+	padding-bottom: 40px;
+
+}
+.lang1 a{
+	padding-left:14px;
+	padding-top: 10px;
+}
+.head ul li a{
+height: 12px;
+color: #000000;
+font-family: "Gotham Pro";
+font-size: 12px;
+letter-spacing: 0.3px;
+display: block;
+text-decoration: none;
+}
+.head ul .lang1:before{
+	content:"";
+	position: absolute;
+	background:url('images/Forma_1.png');
+	width: 9px;
+height: 5px;
+left:100%;
+margin-left:5px;
+top:15px;
+display: block;
+
+}
+.head ul .lang2:before{
+	content:"";
+	position: absolute;
+	background:url('images/Forma_1.png');
+	width: 9px;
+height: 5px;
+left:100%;
+margin-left:5px;
+top:5px;
+display: block;
+
+
+}
+.head ul .lang3:before{
+	content:"";
+	position: absolute;
+	background:url('images/Forma_1.png');
+	width: 9px;
+height: 5px;
+top:15px;
+display: block;
+right: 0;
+
+}
+.lang3 a{
+	padding-right: 14px;
+}
+.head1{
+	padding-left: 14px;
+}
+
+.r{
+	font-size: 0;
+	height:30px;
+
+}
+.langany{
+	position:absolute;
+	box-shadow: 0 1px 4px rgba(61, 59, 60, 0.08);
+	width:94px;
+	top:33px;
+	height:104px;
+	background: #f4f3f1;
+	overflow:hidden;
+	left: 0;
+display:none;
+
+
+}
+.langany2{
+	position:absolute;
+	box-shadow: 0 1px 4px rgba(61, 59, 60, 0.08);
+	width:93px;
+	top:32px;
+	height:62px;
+	background: #f4f3f1;
+	overflow:hidden;
+	right: 0;
+	display: none;
+z-index: 20;
+
+}
+.login{
+	position: absolute;
+	text-decoration: none;
+padding-left:6px;
+width:93px;
+padding-top:3px;
+	padding-bottom:3px; 
+
+}
+.reg{
+	position: absolute;
+
+	text-decoration:none;
+	width: 100%;
+	padding-left:6px;
+	width: 93px;
+	padding-top:3px;
+	padding-bottom:3px; 
+
+
+}
+.langany li a{
+	position: absolute;
+	width:94px;
+	padding-left:14px;
+	height:104px;
+	padding-bottom:3px;
+	padding-top:5px;
+
+
+}
+
+.blogin{
+	position: absolute;
+	top:13px;
+}
+.breg{
+	position: absolute;
+	top:36px;
+}
+
+
+
+
+.langany li .langany21{
+	width:100%;
+	top: 10px;
+
+}
+.langany li .langany22{
+	
+	top:32px;
+}
+.langany li .langany23{
+	
+	top:54px;
+}
+.langany li .langany24{
+background-color: #f9dbe2;
+	top:73px;
+}
+.langany li .langany24:before{
+	content:"";
+	position: absolute;
+background:url('images/Forma_2.png') ;
+width: 10px;
+height: 8px;
+left:70px;
+top:6px;
+
+}
+.langany li .langany21:hover{
+	background-color: #f9dbe2;
+	
+
+
+}
+.langany li .langany22:hover{
+	background-color: #f9dbe2;
+	top:32px;
+}
+.langany li .langany23:hover{
+	background-color: #f9dbe2;
+
+	top:54px;
+}
+.lang1:hover .langany{
+	display:block;
+
+}
+.langany2 li .login:hover{
+	background-color: #f9dbe2;
+	
+
+
+}
+.langany2 li .reg:hover{
+	background-color: #f9dbe2;
+	
+}
+.lang3:hover .langany2{
+	display:block;
+}
+
+.wraper1{
+
+	width:1110px;
+	position: relative;
+	margin-left:auto; 
+	margin-right:auto;
+}
+.logo{
+color: #000000;
+font-family: "proxima";
+font-size: 48px;
+letter-spacing: 1.2px;
+margin-top:14px;
+margin-bottom: 3px;
+display: block;
+text-align: center;
+    margin-left: 93px;
+}
+.underlogo{
+color: #000000;
+font-family: "Gotham Pro";
+font-size: 12px;
+text-align: center;
+letter-spacing: 0.3px;
+display: block;
+}
+.wishlist{
+position: absolute;
+right:94px;
+top: 31px;
+color: #000000;
+font-family: "Gotham Pro";
+font-size: 12px;
+letter-spacing: 0.3px;
+}
+.wishlist:before{
+	content: "";
+	position: absolute;
+	right:100%;
+margin-right:10px;
+width: 11px;
+height: 10px;
+margin-top: 1px;
+background:url('images/heart.png');
+}
+
+.nav{
+	width:1200px;
+	
+	position: relative;
+justify-content: center;
+display: flex;
+font-size: 0;
+
+margin-left: auto;
+margin-right: auto;
+	
+
+}
+.nav li{
+
+font-size: 0;
+
+width:127px;
+height:39px;
+	
+	}
+.nav li a{
+
+	position: relative;
+width:127px;
+height:39px;
+top: 12px;
+ border-left:1px solid #ced9da;    
+color: #000000;
+font-family: "Gotham Pro";
+font-size: 12px;
+font-weight: 500;
+letter-spacing: 0.3px;
+text-decoration: none;
+
+}
+
+.t1{    padding-right: 47px;
+    padding-left: 46px;
+    padding-bottom: 15px;
+    padding-top: 12px;
+  
+}
+.t2{    padding-right: 38px;
+    padding-left: 39px;
+    padding-bottom: 15px;
+    padding-top: 12px;}
+.t3{    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 15px;
+    padding-top: 12px;}
+.t4{    padding-right: 42px;
+    padding-left: 41px;
+    padding-bottom: 15px;
+    padding-top: 12px;}
+.t5{    padding-right: 31px;
+    padding-left: 34px;
+    padding-bottom:15px;
+    padding-top: 12px;}
+.t6{    padding-right: 32px;
+    padding-left: 33px;
+    padding-bottom: 15px;
+    padding-top: 12px;}
+.t7{    padding-right: 17px;
+    padding-left: 23px;
+    padding-bottom: 15px;
+    padding-top: 12px;
+    border-right:1px solid #ced9da;
+}
+.t1{border-left: 1px solid #ced9da
+}
+.nav li:hover a{
+	background: #f9dbe2;
+
+}
+
+
+
+
+.chair1{
+	width: 1111px;
+height: 513px;
+margin-right: auto;
+margin-left: auto;
+margin-top: 20px;
+position: relative;
+}
+.inchair1{
+	width: 393px;
+
+color: #2f2d2d;
+font-family: "Gotham Pro Black";
+font-size: 72px;
+text-align: right;
+letter-spacing: 1.8px;
+position: absolute;
+right: 96px;
+top: 93px;
+}
+.inchair2{
+width: 272px;
+height: 54px;
+color: #2f2d2d;
+font-family: "Gotham Pro";
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+text-align: right;
+letter-spacing: 0.6px;
+position: absolute;
+right: 96px;
+bottom: 179px;
+}
+.inchair3{
+	position: absolute;
+width: 98px;
+height: 16px;
+color: #000000;
+font-family: "Gotham Pro";
+font-size: 16px;
+font-weight: 500;
+line-height: 36px;
+text-align: right;
+text-decoration: underline;
+letter-spacing: 0.4px;
+line-height: normal;
+bottom: 92px;
+right:96px;
+}
+.p03{
+	position: absolute;
+width: 62px;
+height:12px;
+bottom: 30px;
+right: 524px;
+display: flex;
+justify-content: space-between;
+}
+.p03 li a{
+	display: block;
+	border-radius: 50%;
+	background: black;
+	width:12px;
+	height:12px;
+	background: radial-gradient(circle, rgba(0, 0, 0, 0) 45%, black 20%);
+}
+.p03 li  .circle1{
+	background: black;
+}
+.p03 li a:active{
+background: black;
+}
+.fon11{background: #f4f3f1;}
+.fon12{
+	position: absolute;
+    top: 131px;
+    right: 0;
+    left: 0;
+    border-top: 1px solid #ced9da;
+    border-bottom: 1px solid #ced9da;
+    height: 39px;
+}
+.position3{
+      margin-right:auto;
+      margin-left:auto;
+	width:890px;
+	height: 39px;	
+display: flex;
+justify-content: space-between;
+}
+.position3 li{
+	font-size: 0;
+
+}
+
+.position3 li a{
+	position: relative;
+top: 15px;
+height: 10px;
+color: #000000;
+font-family: "Gotham Pro";
+font-size: 12px;
+font-weight: 500;
+text-align: center;
+letter-spacing: 0.3px;
+line-height: normal;
+text-decoration: none;
+}
+.pos32:before{
+    content: "";
+    position: absolute;
+    width: 372px;
+    height: 13px;
+    border-right: 1px solid #ced9da;
+    border-left: 1px solid #ced9da;
+    left: -81px;
+}
+.product1div{
+	position: relative;
+	width:1110px ;
+	height:966px;
+	margin-top:30px; ;
+	margin-right: auto;
+	margin-left:auto;
+}
+.product1div1{
+	
+width: 350px;
+height: 338px;
+left:0;
+top:0;
+position: absolute;
+
+}
+.product1div2{
+	width: 365px;
+height: 337px;
+right:0px;
+top: 0;
+position: absolute;
+background: #e3b5c0;
+}
+.product1div3{
+	position: absolute;
+	left:  380px;
+	top: 0;
+	width: 365px;
+height: 337px;
+}
+.lampatxt{
+color: #000000;
+font-family: "Gotham Pro";
+font-size: 12px;
+font-weight: 500;
+text-align: right;
+letter-spacing: 0.3px;
+position: absolute;
+right: 38px;
+top: 40px;
+}
+.pk{
+
+width: 111px;
+height: 18px;
+color: #000000;
+font-family: "Gotham Pro";
+font-size: 24px;
+font-weight: 700;
+
+
+
+text-align: right;
+
+/* Text style for "b, elight" */
+
+letter-spacing: 0.6px;
+line-height: normal;
+position: absolute;
+right: 38px;
+top: 61px;
+}
+.href1{
+
+color: #a0a0a0;
+font-family: "Gotham Pro";
+font-size: 12px;
+font-weight: 500;
+text-align: right;
+text-decoration: underline;
+letter-spacing: 0.3px;
+line-height: normal;
+position: absolute;
+right: 37px;
+top: 97px;
+}
+.price1{
+color: #000000;
+font-family: "Gotham Pro";
+font-size: 24px;
+font-weight: 700;
+text-align: right;
+letter-spacing: 0.6px;
+line-height: normal;
+position: absolute;
+right: 39px;
+top: 131px;
+}
+.buynow1{
+color: #000000;
+font-family: "Gotham Pro";
+font-size: 16px;
+font-weight: 500;
+line-height: 36px;
+text-align: right;
+text-decoration: underline;
+letter-spacing: 0.4px;
+line-height: normal;
+position: absolute;
+right: 38px;
+top: 281px;
+}
+.sd{
+color: #000000;
+font-family: "Gotham Pro";
+font-size: 16px;
+font-weight: 700;
+text-align: right;
+letter-spacing: 0.4px;
+line-height: normal;
+position: absolute;
+right: 40px;
+top: 40px;
+}
+.sd2{
+color: #000000;
+font-family: "Gotham Pro";
+font-size: 24px;
+font-weight: 700;
+text-align: right;
+letter-spacing: 0.6px;
+line-height: normal;
+position: absolute;
+right: 40px;
+top: 82px;
+}
+.sd3{
+color: #000000;
+font-family: "Gotham Pro";
+font-size: 12px;
+font-weight: 500;
+text-align: right
+letter-spacing: 0.3px;
+line-height: normal;
+position: absolute;
+right: 41px;
+top: 119px;
+}
+.lang1:hover .langany{
+	display: block;
+}
+.lang1{
+	
+z-index: 15;
+}
+.sd32{
+	position: absolute;
+	width: 72px;
+	height: 2px;
+right: 41px;
+top: 164px;
+background: black;
+	
+}
+.shop{
+color: #000000;
+font-family: "Gotham Pro";
+font-size: 16px;
+font-weight: 500;
+line-height: 36px;
+text-align: right;
+text-decoration: underline;
+letter-spacing: 0.4px;
+line-height: normal;
+position: absolute;
+right: 40px;
+bottom: 40px;
+}
+.product1div4{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	
+width: 730px;
+height: 599px;
+}
+.se1{
+color: #000000;
+font-family: "Gotham Pro";
+font-size: 12px;
+font-weight: 500;
+text-align: left;
+letter-spacing: 0.3px;
+line-height: normal;
+position: absolute;
+left: 41px;
+top: 40px;
+}
+.se2{
+color: #000000;
+font-family: "Gotham Pro";
+font-size: 24px;
+font-weight: 700;
+text-align: left;
+letter-spacing: 0.6px;
+line-height: normal;
+position: absolute;
+left: 40px;
+top: 61px;
+}
+.se3{
+color: #a0a0a0;
+font-family: "Gotham Pro";
+font-size: 12px;
+font-weight: 500;
+text-align: left;
+text-decoration: underline;
+letter-spacing: 0.3px;
+letter-spacing: 0.3px;
+line-height: normal;
+position: absolute;
+left: 40px;
+top: 96px;
+}
+.se4{
+width: 78px;
+height: 27px;
+background-color: #000000;
+position: absolute;
+top: 139px;
+left:41px;
+
+}
+.se5{
+	margin-top:9px;
+color: #ffffff;
+font-family: "Gotham Pro";
+font-size: 10px;
+font-weight: 500;
+text-align: center;
+letter-spacing: 0.25px;
+line-height: normal;
+}
+.se6{
+font-family: "Gotham Pro Black";
+font-size: 48px;
+
+text-align: center;
+letter-spacing: 1.2px;
+line-height: normal;
+position: absolute;
+bottom: 123px;
+left: 206px;
+text-transform: uppercase;
+}
+.se7{
+	color: #020202;
+font-family: "Gotham Pro";
+font-size: 16px;
+font-weight: 500;
+line-height: 36px;
+text-align: right;
+text-decoration: underline;
+letter-spacing: 0.4px;
+line-height: normal;
+position: absolute;
+left: 312px;
+bottom: 35px;
+}
+.se8{
+	color: #000000;
+font-family: "Gotham Pro";
+font-size: 12px;
+font-weight: 500;
+
+
+
+text-align: right;
+
+/* Text style for "now" */
+
+letter-spacing: 0.3px;
+line-height: normal;
+position: absolute;
+right: 38px;
+top: 40px;
+}
+.se9{
+	color: #000000;
+font-family: "Gotham Pro";
+font-size: 24px;
+font-weight: 700;
+
+
+
+text-align: right;
+
+
+letter-spacing: 0.6px;
+line-height: normal;
+position: absolute;
+right: 39px;
+top: 59px;
+}
+.se10{
+	color: #000000;
+font-family: "Gotham Pro";
+font-size: 16px;
+font-weight: 500;
+
+
+line-height: 36px;
+text-align: right;
+text-decoration: underline;
+
+
+letter-spacing: 0.4px;
+line-height: normal;
+position: absolute;
+right: 38px;
+top: 150px;
+}
+.product1div5{
+	position: absolute;
+	right: 0;
+	bottom: 313px;
+	
+	width: 350px;
+height: 285px;
+}
+.product1div6{
+	position: absolute;
+	right: 0;
+	bottom:0;
+	
+	width: 350px;
+height: 285px;
+}
+.sr1{
+	position: absolute;
+	top: 39px;
+	left: 40px;
+color: #000000;
+font-family: "Gotham Pro";
+font-size: 12px;
+font-weight: 500;
+line-height: 48px;
+text-align: left;
+
+letter-spacing: 0.3px;
+line-height: normal;
+}
+.sr2{
+	position: absolute;
+top: 60px;
+	left: 39px;
+	color: #a0a0a0;
+font-family: "Gotham Pro";
+font-size: 12px;
+font-weight: 500;
+
+
+
+text-align: left;
+text-decoration: underline;
+
+
+letter-spacing: 0.3px;
+line-height: normal;
+}
+.sr3{
+	color: #000000;
+font-family: "Gotham Pro";
+font-size: 24px;
+font-weight: 700;
+
+
+
+text-align: left;
+
+
+letter-spacing: 0.6px;
+line-height: normal;
+position: absolute;
+left: 40px;
+top: 93px;
+}
+.sr4{
+	color: #000000;
+font-family: "Gotham Pro";
+font-size: 16px;
+font-weight: 500;
+
+
+line-height: 36px;
+text-align: left;
+text-decoration: underline;
+
+letter-spacing: 0.4px;
+line-height: normal;
+position: absolute;
+left: 40px;
+top:149px;
+}
+.st1{
+	
+	display: block;
+color: #000000;
+font-family: "Gotham Pro";
+font-size: 12px;
+font-weight: 500;
+
+
+
+text-align: left;
+
+/* Text style for "sofa" */
+
+letter-spacing: 0.3px;
+line-height: normal;
+position: absolute;
+right: 39px;
+top: 39px;
+}
+.st2{
+	color: #ffffff;
+font-family: "Gotham Pro";
+font-size: 16px;
+font-weight: 500;
+
+
+line-height: 36px;
+text-align: right;
+text-decoration: underline;
+
+/* Text style for "v, iew now" */
+
+letter-spacing: 0.4px;
+line-height: normal;
+position: absolute;
+right: 39px;
+bottom:35px;
+}
+
+
+.sp12{
+	color: #000000;
+font-family: "Gotham Pro";
+font-size: 24px;
+font-weight: 700;
+
+
+
+text-align: center;
+
+/* Text style for "stay infor" */
+
+letter-spacing: 0.6px;
+line-height: normal;
+}
+.sp13{
+	color: #000000;
+font-family: "Gotham Pro";
+font-size: 12px;
+
+
+
+line-height: 24px;
+text-align: center;
+/* Text style for "W, anna be" */
+
+letter-spacing: 0.3px;
+line-height: normal;
+margin-top: 29px;
+}
+input[id=email]{
+	position: relative;
+	margin-top: 35px;
+	margin-right: auto;
+	left: 35px;
+	width: 224px;
+	height: 28px;
+	border: 1px solid #ced9da;
+}
+input[id=sub]{
+	position: relative;
+	left: 30px;
+	height: 32px;
+	background: #e3b5c0;
+	border: 1px solid #ced9da
+	
+}
+.part2{
+	position: absolute;
+	top: 2072px;
+	width: 1110px;
+height: 600px;
+margin-right: auto;
+margin-left:auto;
+}
+.navigation{
+	border-top:1px solid #e0e7e8;
+	border-bottom: 1px solid #e0e7e8;
+	margin-top: 15px;
+}
+.wraper2{
+	border-top:1px solid #e0e7e8;
+	border-bottom: 1px solid #e0e7e8;
+	margin-top: 30px;
+}
+.email1{
+	margin-top: 30px;
+height: 254px;
+background-color: #f4f3f1;
+}
+.email2{
+position: relative;
+	top:50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 417px;
+
+}
+.bed{
+	position: relative;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1110px;
+
+}
+.st1{
+color: #000000;
+font-family: "Gotham Pro";
+font-size: 12px;
+font-weight: 500;
+text-align: left;
+letter-spacing: 0.3px;
+line-height: normal;
+position: absolute;
+left: 41px;
+top: 40px;
+}
+.st2{
+color: #000000;
+font-family: "Gotham Pro";
+font-size: 24px;
+font-weight: 700;
+text-align: left;
+letter-spacing: 0.6px;
+line-height: normal;
+position: absolute;
+left: 41px;
+top: 61px;
+text-decoration: none;
+}
+.st3{
+	color: #000000;
+font-family: "Gotham Pro";
+font-size: 24px;
+font-weight: 700;
+text-align: left;
+letter-spacing: 0.6px;
+line-height: normal;
+position: absolute;
+left: 40px;
+top: 95px;
+}
+.st4{
+color: #020202;
+font-family: "Gotham Pro";
+font-size: 16px;
+font-weight: 500;
+line-height: 36px;
+text-align: left;
+text-decoration: underline;
+letter-spacing: 0.4px;
+line-height: normal;
+position: absolute;
+left: 41px;
+top: 150px;
+}
+.st5{
+color: #2f2d2d;
+font-family: "Gotham Pro Black";
+font-size: 48px;
+text-align: center;
+letter-spacing: 1.2px;
+line-height: normal;
+position: absolute;
+top: 170px;
+right: 281px;
+
+}
+.st6{
+color: #000000;
+font-family: "Gotham Pro";
+font-size: 12px;
+text-align: center;
+letter-spacing: 0.3px;
+line-height: normal;
+position: absolute;
+position: absolute;
+left: 399px;
+top: 234px;
+
+}
+.st7{
+	position: absolute;
+	left: 403px;
+	top: 272px;
+	width: 305px;
+	display: flex;
+	justify-content: space-between;
+}
+.st7 li{
+	width: 65px;
+height: 65px;
+background-color: #ffffff; 
+}
+.inst7{
+color: #000000;
+font-family: "Gotham Pro";
+font-size: 24px;
+font-weight: 700;
+text-align: center;
+letter-spacing: 0.6px;
+line-height: normal;
+position: relative;
+top: 16px;
+}
+.inst8{
+color: #000000;
+font-family: "Gotham Pro";
+font-size: 12px;
+font-weight: 500;
+text-align: center;
+letter-spacing: 0.3px;
+line-height: normal;
+position: relative;
+top: 17px;
+text-align: center;
+}
+.best1{
+	width: 78px;
+height: 27px;
+background-color: #000000;
+position: absolute;
+right: 45px;
+bottom: 49px;
+}
+.best2{
+		margin-top:9px;
+color: #ffffff;
+font-family: "Gotham Pro";
+font-size: 10px;
+font-weight: 500;
+text-align: center;
+letter-spacing: 0.25px;
+line-height: normal;
+}
+.popular1{
+margin-top: 55px;
+}
+.popular2{
+ position: relative;
+ margin-right: auto;
+ margin-left: auto
+}
+.pop1{
+color: #000000;
+font-family: "Gotham Pro";
+font-size: 24px;
+font-weight: 700;
+text-align: center;
+letter-spacing: 0.6px;
+line-height: normal;
+}
+.pop2{
+	color: #000000;
+font-family: "Gotham Pro";
+font-size: 12px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.3px;
+line-height: normal;
+margin-top: 18px;
+}
+.popular22{
+margin-top: 36px;
+}
+.wraper22{
+	    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width:1110px;
+}
+.wraper22 ul{
+	width: 1067px;
+	display: flex;
+	justify-content: space-between;
+	    margin-right: auto;
+    margin-left: auto
+
+
+}
+.wraper22 ul li{
+	position: relative;
+	width: 230px;
+	height: 260px;
+
+	
+
+
+}
+.wraper22 ul li img{
+	position: relative;
+	height: 118px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.best03{
+	width: 57px;
+height: 21px;
+    background-color: #000000;
+    position: absolute;
+  left: 9px;
+  top: 11px;
+}
+.best3{
+	margin-top: 6px;
+   color: #ffffff;
+font-family: "Gotham Pro";
+font-size: 7px;
+font-weight: 500;
+
+
+line-height: 34.9px;
+text-align: center;
+
+/* Text style for "b, estsell" */
+
+letter-spacing: 0.25px;
+line-height: normal;
+}
+.sale1{
+
+	width: 40px;
+height: 40px;
+border: 2px solid #e3b5c0;
+background: #e3b5c0;
+position: absolute;
+right: 9px;
+top: 12px;
+}
+.sale11{
+	position: relative;
+	top: 14px;
+color: #010101;
+font-family: "Gotham Pro";
+font-size: 12px;
+font-weight: 500;
+
+
+
+text-align: center;
+
+/* Text style for "-, 50%" */
+
+letter-spacing: 0.3px;
+line-height: normal;
+}
+.vase{
+
+	position: relative;
+color: #000000;
+font-family: "Gotham Pro";
+font-size: 12px;
+font-weight: 500;
+
+
+line-height: 34.9px;
+text-align: center;
+
+/* Text style for "vase" */
+
+letter-spacing: 0.41px;
+line-height: normal;
+top: 68px;
+}
+.tt1{
+	position: relative;
+}
+.tt{
+	position: relative;
+	width:140px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	top: 56px;
+}
+.namevase{
+
+	color: #000000;
+font-family: "Gotham Pro";
+font-size: 18px;
+font-weight: 700;
+
+
+line-height: 34.9px;
+text-align: center;
+
+/* Text style for "B, ebbino" */
+
+letter-spacing: 0.62px;
+line-height: normal;
+position: relative;
+top: 70px;
+}
+.yot{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	text-align: center;
+}
+.sale22{
+	position: relative;
+	width: 70px;
+	text-align: center;
+	margin-right: auto;
+margin-left: auto;
+
+}
+.sale22 p{
+	display: inline-block;
+}
+.sale221{
+	margin-right: 9px;
+color: #a0a0a0;
+font-family: "Gotham Pro";
+font-size: 12px;
+font-weight: 300;
+
+
+
+text-align: right;
+text-decoration: line-through;
+
+/* Text style for "$14" */
+
+letter-spacing: 0.3px;
+line-height: normal;
+}
+.sale222{
+color: #000000;
+font-family: "Gotham Pro";
+font-size: 18px;
+font-weight: 700;
+
+
+line-height: 34.9px;
+text-align: left;
+
+/* Text style for "$, 7" */
+
+letter-spacing: 0.62px;
+line-height: normal;
+}
+
+.wraper22 ul li:after{
+	content: "";
+	position: absolute;
+width: 11px;height: 10px;
+background:url('images/heart.png');
+right: 9px;
+top: 282px;
+
+}
+.wraper22 ul li:before{
+	content: "";
+	position: absolute;
+width: 15px;
+height: 14px;
+background:url('images/Cart.png');
+left: 9px;
+top: 282px;
+
+}
+.wraper22:after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 26px;
+    background: url(images/right.png);
+    right: -16px;
+    bottom: 100px;
+    }
+    .wraper22:before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 26px;
+    background: url(images/left.png);
+    left: -16px;
+    bottom: 100px;
+}
+.tik{
+	position: relative;
+	margin-top: 123px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.p033{
+width: 62px;
+height:12px;
+display: flex;
+justify-content: space-between;
+margin-left: auto;
+margin-right: auto;
+
+}
+.p033 li a{
+	display: block;
+	border-radius: 50%;
+	background: black;
+	width:12px;
+	height:12px;
+	background: radial-gradient(circle, rgba(0, 0, 0, 0) 45%, black 20%);
+}
+.p033 li a:active{
+	background: black;
+}
+.p033 li  .circle11 {
+	background: black;
+}
+.under{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 49px;
+	background: #585b66;
+}
+.logounder{
+	position: relative;
+	top: 0;
+	left: 0;
+	
+}
+.wraper33{
+	position: relative;
+	width: 1110px;
+margin-left: auto;
+margin-right: auto;
+padding-top: 50px;
+height: 345px;
+}
+.logounder2{
+color: #ffffff;
+font-family: "Proxima Nova Cond - Black";
+font-size: 48px;
+
+
+
+
+text-align: left;
+/* Text style for "b, ailey" */
+
+letter-spacing: 1.2px;
+line-height: normal;
+}
+.logounder3{
+color: #ffffff;
+font-family: "Gotham Pro";
+font-size: 11px;
+
+
+
+
+text-align: left;
+
+letter-spacing: 0.06px;
+line-height: normal;
+}
+.footli{
+	position: absolute;
+width: 445px;
+display: flex;
+justify-content: space-between;
+left:285px; 
+top: 50px;
+}
+.footinf1{
+
+color: #ffffff;
+font-family: "Gotham Pro";
+font-size: 12px;
+font-weight: 700;
+
+
+
+text-align: left;
+/* Text style for "Catalogue" */
+
+letter-spacing: 0.3px;
+line-height: normal;
+text-decoration: none;
+}
+.footli2{
+	position: absolute;
+	top: 100%;
+	width:110px; 
+}
+.footli2 li a{
+	display:inline-block;
+	color: #ffffff;
+font-family: "Gotham Pro";
+font-size: 12px;
+
+
+
+
+text-align: left;
+/* Text style for "O, ur stor" */
+
+letter-spacing: 0.3px;
+line-height: normal;
+text-decoration: none;
+margin-top: 19px;
+left:0;
+
+}
+footer{
+background: #4b4e59;
+height: 30px;
+}
+.foottxt{
+	position: relative;
+color: #f4f3f3;
+font-family: "Gotham Pro";
+font-size: 10px;
+text-align: left;
+letter-spacing: 0.25px;
+line-height: normal;
+	text-align: center;
+	top: 10px;
+}
+.st11{
+	position: absolute;
+	right: 39px;
+	top: 39px;
+color: #ffffff;
+font-family: "Gotham Pro";
+font-size: 24px;
+font-weight: 700;
+
+
+line-height: 30px;
+text-align: right;
+letter-spacing: 0.6px;
+line-height: normal;
+width: 130px;
+}
+.st22{
+color: #ffffff;
+font-family: "Gotham Pro";
+font-size: 16px;
+font-weight: 500;
+line-height: 36px;
+text-align: right;
+text-decoration: underline;
+letter-spacing: 0.4px;
+line-height: normal;
+position: absolute;
+right: 39px;
+bottom: 35px;
+}
+.chair1,.producy1div,.bed,.email2,.wraper22{
+	text-transform: uppercase;
+}
+.head{
+
+	margin-left: auto;
+	margin-right:auto;
+	position: relative;
+	width: 1110px;
+	left: 0;
+}
